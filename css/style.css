@@ -1,0 +1,35 @@
+h1 {
+    color: rgb(31, 105, 107);
+}
+
+body {
+    background-color: rgb(188, 221, 255);
+}
+
+p a {
+    background-color: yellow;
+}
+
+li {
+    font-style: italic;
+}
+
+ol li {
+    font-weight: bold; font-family: monospace;
+}
+
+/* uniquement pour les LI qui osnt imbriqués dans un autr UL LI
+
+li ul li {
+    font-variant: small-caps;
+}
+*/
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.retour {
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: right;
+}
