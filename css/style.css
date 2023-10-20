@@ -1,10 +1,12 @@
 h1 {
     color: rgb(31, 105, 107);
+    text-align: center;
+
 }
 
-body {
+/*body {
     background-image: url(../images/mountains-8283189_1920.jpg);
-}
+}*/
 
 p a {
     background-color: yellow;
@@ -33,3 +35,29 @@ p {
     font-family: Arial, Helvetica, sans-serif; 
     text-align: right;
 }
+ nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1cadda;
+    position: fixed;
+ }
+  
+ nav li {
+    float: left;
+    border-right: 1px solid #bbb;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+  }
+  
+ nav li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ nav li a:hover {
+    background-color: #029676;
+  }
