@@ -1,13 +1,43 @@
+
+
 h1 {
     color: rgb(31, 105, 107);
 }
 
 body {
-    background-image: url(../images/mountains-8283189_1920.jpg);
+    /*margin: 0;
+    padding: 0;
+    background-image: url(../images/flat-1680090_1280.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;*/
+    background-color: #CCD5D7;
 }
 
+
+/*body {
+    background-image: url(../images/river-8286407_1280.png);
+    background-size: cover;
+    };
+*/
+.barre {
+    background-image: url(../images/Blue\ and\ Yellow\ Modern\ Artisan\ Parties\ and\ Celebrations\ X-Frame\ Banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: rgb(0, 0, 0);
+    font-size: large;
+    height: 300px;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+
+
+}
 p a {
-    background-color: yellow;
+    background-color:#FDCD74;
 }
 
 li {
@@ -26,7 +56,8 @@ li ul li {
 */
 
 p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
 }
 
 .retour {
