@@ -1,66 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-
-h1 {
-    color: rgb(31, 105, 107);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
-    /*margin: 0;
-    padding: 0;
-    background-image: url(../images/flat-1680090_1280.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;*/
-    background-color: #CCD5D7;
+    background: #00356B;
+    color: white;
 }
 
-
-/*body {
-    background-image: url(../images/river-8286407_1280.png);
-    background-size: cover;
-    };
-*/
-.barre {
-    background-image: url(../images/Blue\ and\ Yellow\ Modern\ Artisan\ Parties\ and\ Celebrations\ X-Frame\ Banner.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: rgb(0, 0, 0);
-    font-size: large;
-    height: 300px;
-    text-align: right;
-    margin: 0;
-    padding: 0;
-
-
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #96D4CA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
-p a {
-    background-color:#FDCD74;
+.logo{
+    width: 250px;      
 }
 
-li {
-    font-style: italic;
+.barre a {
+    font-size: 20px;
+    color: 00356B;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 35px;
+    transition: 0.3s;
 }
 
-ol li {
-    font-weight: bold; font-family: monospace;
+.barre a:hover {
+    color: #00abf0;
+    
 }
-
-/* uniquement pour les LI qui osnt imbriqués dans un autr UL LI
-
-li ul li {
-    font-variant: small-caps;
+.Accueil {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+   
 }
-*/
-
-p {
-    font-family: 'Poppins', sans-serif;
-    color: rgb(0, 0, 0);
+.accueil-content {
+    max-width: 600px;
 }
+.accueil-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+.accueil-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+}
+.accueil-content p {
+    font-size: 16px;
+}
+.footer {
+    margin: 50px;
+    padding: 100px;
+    display: grid;
+    margin-top: -200px;
 
-.retour {
-    font-family: Arial, Helvetica, sans-serif; 
-    text-align: right;
 }
