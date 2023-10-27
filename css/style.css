@@ -30,11 +30,11 @@ body {
 
 .barre a {
     font-size: 20px;
+    font-weight: 500;
     color: #00356B;
     text-decoration: none;
     margin-left: 35px;
     transition: 0.3s;
-
 }
 
 .barre a:hover {
@@ -46,7 +46,7 @@ body {
     display: flex;
     align-items: center;
     padding: 0 10%;
-    background-image: url(../images/analytics-3088958_1280.jpg);
+    background-image: url(../images/web-6916253_1280.jpg);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -66,9 +66,6 @@ body {
     font-size: 25px;
     font-weight: 400;
     color: #00abf0;
-}
-.webdev {
-    font-size: 30px;
 }
 .accueil-content p {
     font-size: 16px;
