@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     margin: 0;
@@ -18,7 +18,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: #96D4CA;
+    background: #00abf0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,16 +30,15 @@ body {
 
 .barre a {
     font-size: 20px;
-    color: 00356B;
+    color: #00356B;
     text-decoration: none;
-    font-weight: 700;
     margin-left: 35px;
     transition: 0.3s;
 
 }
 
 .barre a:hover {
-    color: #00abf0;
+    color: #fff;
     
 }
 .Accueil {
@@ -47,7 +46,13 @@ body {
     display: flex;
     align-items: center;
     padding: 0 10%;
+    background-image: url(../images/analytics-3088958_1280.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    margin-bottom: 5%;
 }
+
 
 .accueil-content {
     max-width: 700px;
@@ -55,15 +60,15 @@ body {
 
 .accueil-content h1 {
     font-size: 45px;
-    font-weight: 700;
+    font-weight: 500;
 }
 .accueil-content h3 {
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 400;
     color: #00abf0;
 }
 .webdev {
-    font-size: 32px;
+    font-size: 30px;
 }
 .accueil-content p {
     font-size: 16px;
@@ -74,19 +79,31 @@ body {
     display: flex;
     margin-top: -10px;
     justify-content: space-between;
-    border: 2px solid white;
-
+    font-weight: 500;
+    a:hover {
+        color: #00abf0;
+    }
+    a:link, :visited, :active{
+        color: #fff;
+    }
 }
+
 .retour {
     text-align: center;
-    font-weight: 800;
+    font-weight: 500;
+    a:hover {
+        color: #00abf0;
+    }
+    a:link, :visited, :active{
+        color: #fff;
+    }
 }
-.interview-text {
+.titleInterview {
     margin: 100px;
-}
-.interview-text h1 {
+    h1 {
     text-align: center;
     margin-bottom: 5%;
+    }
 }
 .rapport-text {
     margin: 100px;
@@ -104,4 +121,32 @@ body {
 #bas {
     text-align: center;
     margin-bottom: 200px;
+    a:hover {
+        color: #00abf0;
+    }
+    a:link, :visited, :active{
+        color: #fff;
+    }
+}
+
+.titleExpoGalerie {
+    margin: 100px;
+    text-align: center;
+}
+.contentExpoGalerie {
+    text-align: justify;
+    margin: 100px;
+}
+.expolink {
+    margin: 100px;
+    a:hover {
+        color: #00abf0;
+    }
+    a:link, :visited, :active{
+        color: #fff;
+    }
+}
+.imgGalerie {
+    text-align: center;
+
 }
