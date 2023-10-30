@@ -1,63 +1,149 @@
-h1 {
-    color: rgb(31, 105, 107);
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800;1,900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-/*body {
-    background-image: url(../images/mountains-8283189_1920.jpg);
-}*/
-
-p a {
-    background-color: yellow;
+body {
+    background: #00356B;
+    color: white;
 }
 
-li {
-    font-style: italic;
+.header {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #00abf0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    width: 170px;      
 }
 
-ol li {
-    font-weight: bold; font-family: monospace;
+.barre a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #00356B;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: 0.3s;
 }
 
-/* uniquement pour les LI qui osnt imbriqués dans un autr UL LI
-
-li ul li {
-    font-variant: small-caps;
+.barre a:hover {
+    color: #fff;
+    
 }
-*/
+.Accueil {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    background-image: url(../images/web-6916253_1280.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    margin-bottom: 5%;
+}
 
-p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+.accueil-content {
+    max-width: 700px;
+}
+
+.accueil-content h1 {
+    font-size: 45px;
+    font-weight: 500;
+}
+.accueil-content h3 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #00abf0;
+}
+.accueil-content p {
+    font-size: 16px;
+}
+.footer {
+    margin: 170px;
+    padding: 20px;
+    display: flex;
+    margin-top: -10px;
+    justify-content: space-between;
+    font-weight: 500;
+    a:hover {
+        color: #00abf0;
+    }
+    a:link, :visited, :active{
+        color: #fff;
+    }
 }
 
 .retour {
-    font-family: Arial, Helvetica, sans-serif; 
-    text-align: right;
-}
- nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #1cadda;
-    position: fixed;
- }
-  
- nav li {
-    float: left;
-    border-right: 1px solid #bbb;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: normal;
-  }
-  
- nav li a {
-    display: block;
-    color: rgb(0, 0, 0);
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
- nav li a:hover {
-    background-color: #029676;
-  }
+    font-weight: 500;
+    a:hover {
+        color: #00abf0;
+    }
+    a:link, :visited, :active{
+        color: #fff;
+    }
+}
+.titleInterview {
+    margin: 100px;
+    h1 {
+    text-align: center;
+    margin-bottom: 5%;
+    }
+}
+.rapport-text {
+    margin: 100px;
+}
+.rapport-text h1 {
+    text-align: center;
+    text-decoration: solid;
+}
+.rapport-text p {
+    text-align: justify;
+}
+.descriptionEntreprise {
+    margin: 100px;
+}
+#bas {
+    text-align: center;
+    margin-bottom: 200px;
+    a:hover {
+        color: #00abf0;
+    }
+    a:link, :visited, :active{
+        color: #fff;
+    }
+}
+
+.titleExpoGalerie {
+    margin: 100px;
+    text-align: center;
+}
+.contentExpoGalerie {
+    text-align: justify;
+    margin: 100px;
+}
+.expolink {
+    margin: 100px;
+    a:hover {
+        color: #00abf0;
+    }
+    a:link, :visited, :active{
+        color: #fff;
+    }
+}
+.imgGalerie {
+    text-align: center;
+
+}
