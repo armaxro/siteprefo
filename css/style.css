@@ -39,7 +39,7 @@ body {
 
 .barre a:hover {
     color: #fff;
-    
+    text-transform: uppercase;
 }
 .Accueil {
     height: 70vh;
@@ -115,9 +115,17 @@ body {
 .descriptionEntreprise {
     margin: 100px;
 }
-#bas #top{
+#top{
     text-align: center;
     margin-bottom: 200px;
+    font-weight: 300;
+    margin-bottom: 5%;
+}
+#bas{
+    text-align: center;
+    margin-bottom: 200px;
+    font-weight: 300;
+    margin-bottom: 5%;
     a:hover {
         color: #00abf0;
     }
@@ -125,10 +133,17 @@ body {
         color: #fff;
     }
 }
+.a:hover{
+        color: #00abf0;
+    }
+    a:link, :visited, :active{
+        color: #fff;
+    }
 
 .titleExpoGalerie {
     margin: 100px;
     text-align: center;
+    font-weight: 300;
 }
 .contentExpoGalerie {
     text-align: center;
@@ -145,18 +160,41 @@ body {
 }
 div.scroll-container {
     background-color: #00356B;
-    overflow: auto;
+    overflow: scroll;
     white-space: nowrap;
     padding: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 div.scroll-container img {
     padding: 5px;
-    width: 500px;
-    height: 600px;
-    border-radius: 10%;
+    margin-right: 70px;
+    width: 400px;
+    height: 500px;
+    border-radius: 8%;
     border-right-style: outset;
-    border-right-color: #fff;
+    border-right-color: #2398bf;
 }
 div.scroll-container img:hover {
-    border: 2px solid #00abf0;
+    filter: drop-shadow(5px 5px 10px #000000);
+    transform: scale(1.0);
+    width: 700px;
+    height: 800px;    
 }
+.titleConclusion{
+    text-align: center;
+    margin: 100px;
+    font-weight: 300;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+  
+.grid-item {
+    padding: 20px;
+    font-weight: 400;
+    text-align: justify;
+    
+}    
