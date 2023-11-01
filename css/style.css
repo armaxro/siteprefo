@@ -25,12 +25,12 @@ body {
     z-index: 100;
 }
 .logo{
-    width: 170px;      
+    width: 200px;      
 }
 
 .barre a {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     color: #00356B;
     text-decoration: none;
     margin-left: 35px;
@@ -115,7 +115,7 @@ body {
 .descriptionEntreprise {
     margin: 100px;
 }
-#bas {
+#bas #top{
     text-align: center;
     margin-bottom: 200px;
     a:hover {
@@ -143,24 +143,20 @@ body {
         color: #fff;
     }
 }
-
-.imgGalerie {
-    padding: 0%;
-    margin: 0%;
+div.scroll-container {
+    background-color: #00356B;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+div.scroll-container img {
+    padding: 5px;
+    width: 500px;
+    height: 600px;
+    border-radius: 10%;
+    border-right-style: outset;
+    border-right-color: #fff;
+}
+div.scroll-container img:hover {
     border: 2px solid #00abf0;
-    height: 30%;
-    width: 30%;
-    
-
-
-}
-li{
-    display: block;
-
-
-}
-.divGalerie{
-
-    float: right;
-   
 }
