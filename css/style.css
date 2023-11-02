@@ -41,6 +41,7 @@ body {
     color: #fff;
     text-transform: uppercase;
 }
+
 .Accueil {
     height: 70vh;
     display: flex;
@@ -50,9 +51,8 @@ body {
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
-
 
 .accueil-content {
     max-width: 700px;
@@ -70,13 +70,16 @@ body {
 .accueil-content p {
     font-size: 16px;
 }
+
 .footer {
-    margin: 170px;
-    padding: 20px;
+    margin-top: -2%;
+    margin-bottom: 10%;
     display: flex;
-    margin-top: -10px;
+    margin-right: 5%;
+    margin-left: 5%;
     justify-content: space-between;
-    font-weight: 500;
+    font-weight: 300;
+    text-align: center;
     a:hover {
         color: #00abf0;
     }
@@ -84,10 +87,46 @@ body {
         color: #fff;
     }
 }
-
-.retour {
+.socialMedia{
+    width: 100%;
     text-align: center;
-    font-weight: 500;
+    margin-bottom: 10%;
+    font-weight: 300;
+    a:hover {
+        color: #00abf0;
+    }
+    a:link, :visited, :active{
+        color: #fff;
+    }
+    a{
+        margin-left: 10px;
+        margin-right: 5%;
+        text-align: center;
+    }
+}
+
+.retour {    
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: 300;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    a:hover {
+        color: #00abf0;
+    }
+    a:link, :visited, :active{
+        color: #fff;
+    }
+}
+.retourPages {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: 300;
     a:hover {
         color: #00abf0;
     }
