@@ -51,7 +51,7 @@ body {
     display: flex;
     align-items: center;
     padding: 0 10%;
-    background-image: url(../images/web-6916253_1280.jpg);
+    background-image: url(../images/becomes-co--NQ1Q2elPSs-unsplash.jpg);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -129,7 +129,7 @@ body {
     width: 100%;
     text-align: center;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     font-weight: 300;
     a:hover {
         color: #00abf0;
@@ -189,8 +189,30 @@ body {
     font-weight: 300;
 }
 .contentExpoGalerie {
-    text-align: center;
+    text-align: justify;
     margin: 100px;
+    font-weight: 300;
+}
+.Expo {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    padding: 10 10%;
+    background-image: url(../images/imgExpo/IMG_7567.jpg);
+    background-position: left ;
+    background-repeat: no-repeat;
+    background-size: 35%;
+    margin-bottom: 40%;
+    margin-top: 5%;
+    margin-left: 5%;
+    
+}
+.expoContent{
+    max-width: 60%;
+    text-align: justify;
+    margin-top: 40%;
+    margin-right: 5%;
+    margin-left: 40%;
 }
 .expolink {
     margin: 100px;
@@ -227,7 +249,7 @@ div.scroll-container img:hover {
 .titleConclusion{
     text-align: center;
     margin: 100px;
-    font-weight: 300;
+    font-weight: 400;
 }
 .grid-container {
     display: grid;
@@ -236,8 +258,13 @@ div.scroll-container img:hover {
 }
   
 .grid-item {
-    padding: 20px;
-    font-weight: 400;
+    padding: 5%;
     text-align: justify;
-    
-}    
+    margin-top: 1%;
+    margin-bottom: 10%;  
+    font-weight: 300;
+}   
+.grid-item2 {
+    padding: 5%;
+    margin-bottom: 10%;
+} 
