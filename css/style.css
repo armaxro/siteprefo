@@ -65,7 +65,7 @@ body {
 
 .accueil-content h1 {
     font-size: 45px;
-    font-weight: 400;
+    font-weight: 300;
 }
 .accueil-content h2{
     text-align: right;
@@ -153,8 +153,10 @@ body {
 .titleInterview {
     margin: 100px;
     h1 {
+    text-align: left;
+    margin-bottom: 2%;
+    font-weight: 400;
     text-align: center;
-    margin-bottom: 3%;
     }
     p {
         margin-left: 10%;
@@ -168,22 +170,32 @@ body {
     li{
         margin-left: 10%;
     }
+    .reponseQA{
+        color: #00abf0;
+    }
 }
-
 
 .rapport-text {
     margin: 100px;
 }
-.rapport-text h1 {
+.rapport-text h2, h3{
     text-align: center;
-    text-decoration: solid;
+    margin-bottom: 3%;
+
 }
-.rapport-text p {
-    text-align: justify;
+.logoSoc1{
+    text-align: center;
+    margin: 5% 10%;
+
 }
-.descriptionEntreprise {
-    margin: 100px;
+.logoSoc2{
+    text-align: center;
+    
 }
+.rapport-text p{
+    margin-bottom: 3%;
+}
+
 #top{
     text-align: center;
     margin-bottom: 200px;
@@ -295,7 +307,7 @@ div.scroll-container img:hover {
     text-align: justify;
     margin-top: 1%;
     margin-bottom: 10%;  
-    font-weight: 300;
+    font-weight: 400;
 }   
 .grid-item2 {
     padding: 5%;
