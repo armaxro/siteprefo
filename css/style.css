@@ -153,40 +153,39 @@ body {
 }
 .titleInterview {
     margin: 100px;
-    h1 {
+}
+.titleInterview h1 {
     text-align: left;
     margin-bottom: 2%;
     font-weight: 400;
     text-align: center;
     font-size: 32px;
-    }
-    p {
-        margin-left: 10%;
-        margin-bottom: 1%;
-        font-weight: 400;
-        font-size: 18px;
-        
-    }
-    #intro-interview{
-        text-align: center;
-        margin: 5%;
-    }
-    h2 {
-        margin-left: 5%;
-        margin-bottom: 20px;
-        margin-top: 5%;
-        font-weight: 400;
-    
-    }
-    li{
-        margin-left: 10%;
-        font-size: 18px;
-    }
-    .reponseQA{
-        color: #00abf0;
-    }
 }
+.titleInterview h2 {
+    margin-left: 5%;
+    margin-bottom: 20px;
+    margin-top: 5%;
+    font-weight: 400;
 
+}
+.titleInterview li{
+    margin-left: 10%;
+    font-size: 18px;
+}
+.titleInterview p {
+    margin-left: 10%;
+    margin-bottom: 1%;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+#intro-interview{
+    text-align: center;
+    margin: 5%;
+}
+.reponseQA{
+    color: #00abf0 ;
+}
 .rapport-text {
     margin: 100px;
     p{
