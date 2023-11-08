@@ -68,7 +68,7 @@ body {
     font-weight: 300;
 }
 .accueil-content h2{
-    text-align: left;
+    text-align: right;
     font-size: 30px;
     font-weight: 300;
     color: #00abf0;
@@ -79,12 +79,13 @@ body {
     color: #00abf0;
 }
 .accueil-content p {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 10%;
     margin-top: 5%;
 }
 .accueil-content h4{
-    font-weight: 200;    ;
+    font-weight: 200;
+    font-size: 18px;
 }
 
 .footer {
@@ -157,18 +158,29 @@ body {
     margin-bottom: 2%;
     font-weight: 400;
     text-align: center;
+    font-size: 32px;
     }
     p {
         margin-left: 10%;
-        margin-bottom: 10px;
+        margin-bottom: 1%;
         font-weight: 400;
+        font-size: 18px;
+        
+    }
+    #intro-interview{
+        text-align: center;
+        margin: 5%;
     }
     h2 {
         margin-left: 5%;
         margin-bottom: 20px;
+        margin-top: 5%;
+        font-weight: 400;
+    
     }
     li{
         margin-left: 10%;
+        font-size: 18px;
     }
     .reponseQA{
         color: #00abf0;
@@ -177,24 +189,31 @@ body {
 
 .rapport-text {
     margin: 100px;
+    p{
+        text-align: justify;
+        font-size: 18px;
+    }
 }
 .rapport-text h2{
     text-align: center;
     margin-bottom: 3%;
+    font-weight: 500;
+    text-decoration: underline;
 }
 .rapport-text h3{
     text-align: center;
     margin-bottom: 3%;
+    font-weight: 400;
+    font-size: 20px;
 
 }
 .logoSoc1{
     text-align: center;
     margin: 5% 10%;
-
 }
 .logoSoc2{
     text-align: center;
-    
+    margin-bottom: 10%;
 }
 .rapport-text p{
     margin-bottom: 3%;
@@ -203,8 +222,9 @@ body {
 #top{
     text-align: center;
     margin-bottom: 200px;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 5%;
+    font-size: 32px;
 }
 #bas{
     text-align: center;
@@ -228,12 +248,12 @@ body {
 .titleExpoGalerie {
     margin: 100px;
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 32px;
 }
 .contentExpoGalerie {
     text-align: justify;
     margin: 100px;
-    font-weight: 300;
 }
 .Expo {
     height: 60vh;
@@ -241,7 +261,6 @@ body {
     align-items: center;
     padding: 10 10%;
     background-image: url(../images/imgExpo/IMG_7567.jpg);
-    background-position: left ;
     background-repeat: no-repeat;
     background-size: 35%;
     margin-bottom: 50%;
@@ -252,15 +271,18 @@ body {
 .expoContent{
     max-width: 60%;
     text-align: justify;
-    margin-top: 40%;
+    margin-top: 45%;
     margin-right: 5%;
     margin-left: 40%;
 }
 .expoContent h1 {
     margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 400;
 }
 .expoContent p{
     margin-bottom: 10px;
+    font-size: 16px;
 }
 
 .expolink {
@@ -287,7 +309,7 @@ div.scroll-container img {
     height: 500px;
     border-radius: 8%;
     border-right-style: outset;
-    border-right-color: #2398bf;
+    border-right-color: #00abf0;
 }
 div.scroll-container img:hover {
     filter: drop-shadow(5px 5px 10px #000000);
