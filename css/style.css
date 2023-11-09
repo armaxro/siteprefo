@@ -88,7 +88,7 @@ body {
     font-size: 18px;
 }
 
-.footer {
+.liens {
     margin-top: -2%;
     margin-bottom: 10%;
     display: flex;
@@ -107,7 +107,7 @@ body {
 .socialMedia{
     width: 100%;
     text-align: center;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     font-weight: 300;
     a:hover {
         color: #00abf0;
@@ -355,4 +355,15 @@ div.scroll-container img:hover {
     filter: drop-shadow(5px 5px 10px #00abf0);
     transform: scale(1.2);
     transition: 1s;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-weight: 400;
+    font-style: bold;
+    columns: 1;
+    border-color: #00abf0;
+    border-style: double;
 }
