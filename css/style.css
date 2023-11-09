@@ -291,7 +291,7 @@ body {
         color: #fff;
     }
 }
-div.scroll-container {
+/**div.scroll-container {
     background-color: #00356B;
     overflow: scroll;
     white-space: nowrap;
@@ -313,7 +313,7 @@ div.scroll-container img:hover {
     transform: scale(1.0);
     width: 700px;
     height: 800px;    
-}
+}**/
 .titleConclusion{
     text-align: center;
     margin: 100px;
@@ -338,14 +338,13 @@ div.scroll-container img:hover {
 } 
 .image-container{
     columns: 4;
-    gap: 10px;
-    direction: ltr;
+    gap: 5px;
 }
 .image-container img{
     margin-top: 50px;
     margin-bottom: 10px;
-    margin-right: 90px;
-    margin-left: 80px;
+    margin-right: 40px;
+    margin-left: 40px;
     border-radius: 50px;
     border-right: #00abf0;
     border-style: solid;
@@ -353,6 +352,7 @@ div.scroll-container img:hover {
     max-height: 600px;
 }
 .image-container img:hover{
-    filter: drop-shadow(5px 5px 10px #00abf0);
+    filter: drop-shadow (5px 5px 10px #00abf0);
     transform: scale(1.3);
+    transition: 1s;
 }
