@@ -337,8 +337,9 @@ div.scroll-container img:hover {
     margin-bottom: 10%;
 } 
 .image-container{
-    columns: 3 ;
+    columns: 4;
     gap: 10px;
+    direction: ltr;
 }
 .image-container img{
     margin-top: 50px;
@@ -353,5 +354,5 @@ div.scroll-container img:hover {
 }
 .image-container img:hover{
     filter: drop-shadow(5px 5px 10px #00abf0);
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
