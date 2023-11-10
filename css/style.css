@@ -150,21 +150,26 @@ body {
     text-align: center;
     font-size: 32px;
 }
-.titleInterview h2 {
-    margin-left: 5%;
+
+.interview-container h2 {
+    margin-left: 9%;
     margin-bottom: 20px;
     margin-top: 5%;
     font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+    
 }
-.titleInterview li{
-    margin-left: 10%;
+.interview-container li{
     font-size: 18px;
+    text-align: justify;
+    margin-left: 5%;
 }
-.titleInterview p {
-    margin-left: 10%;
-    margin-bottom: 1%;
+.interview-container p {
+    margin-left: 5%;
     font-weight: 400;
     font-size: 18px;
+    text-align: justify;
 }
 #intro-interview{
     text-align: center;
@@ -172,6 +177,20 @@ body {
 }
 .reponseQA{
     color: #00abf0 ;
+}
+.imgparm{
+    float: left;
+    margin: 5% 5% 10%;
+    border-radius: 2%;
+    border-right-color: #00abf0;
+    border-right-style: groove;
+}
+.imgguill{
+    margin: 5% 5% 12%;
+    float: left;
+    border-radius: 2%;
+    border-right-color: #00abf0;
+    border-right-style: groove;   
 }
 .rapport-text {
     margin: 100px;
@@ -247,6 +266,7 @@ body {
     align-items: center;
     padding: 10 10%;
     background-image: url(../images/imgExpo/IMG_7567.jpg);
+    background-position: left;
     background-repeat: no-repeat;
     background-size: 35%;
     margin-bottom: 50%;
