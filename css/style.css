@@ -278,11 +278,12 @@ body {
     
 }
 .expoContent{
-    max-width: 60%;
+    max-width: 75%;
     text-align: justify;
-    margin-top: 45%;
+    margin-top: 50%;
     margin-right: 5%;
     margin-left: 40%;
+    
 }
 .expoContent h1 {
     margin-bottom: 60px;
@@ -334,23 +335,24 @@ div.scroll-container img:hover {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    padding: 10px;
+    padding: 5px;
 }
   
 .grid-item {
-    padding: 5%;
+    padding: 5% 0 10% 5%;
     text-align: justify;
     margin-bottom: 10%; 
-    margin-left: 10%; 
+    margin-left: 5%;
+    margin: 0 0 10% 10%; 
     font-weight: 400;
 }   
 
 .grid-item2 img{
     max-width: 50%;
     border-radius: 10%;
-    float: right;
     padding: 0;
-    margin: 5% 10%;
+    margin: 5% 10% 0 25%;
+    
 } 
 .image-container{
     columns: 4;
