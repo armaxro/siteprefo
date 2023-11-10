@@ -337,13 +337,19 @@ div.scroll-container img:hover {
 .grid-item {
     padding: 5%;
     text-align: justify;
-    margin-top: 5%;
-    margin-bottom: 10%;  
+    margin-bottom: 10%; 
+    margin-left: 10%; 
     font-weight: 400;
 }   
-.grid-item2 {
-    padding: 5%;
-    margin-bottom: 10%;
+
+.grid-item2 img{
+    height: 70%;
+    width: 70%;
+    border-radius: 10%;
+    float: right;
+    padding: 0;
+    margin: 5% 10%;
+
 } 
 .image-container{
     columns: 4;
