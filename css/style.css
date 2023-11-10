@@ -109,17 +109,6 @@ body {
     text-align: center;
     margin-bottom: 5%;
     font-weight: 300;
-    a:hover {
-        color: #00abf0;
-    }
-    a:link, :visited, :active{
-        color: #fff;
-    }
-    a href{
-        margin-left: 10px;
-        margin-right: 10%;
-        text-align: center;
-    }
 }
 
 .retour {    
