@@ -110,6 +110,9 @@ body {
     margin-bottom: 5%;
     font-weight: 300;
 }
+.socialMedia a{
+    text-decoration: none;
+}
 
 .retour {    
     display: flex;
@@ -343,13 +346,11 @@ div.scroll-container img:hover {
 }   
 
 .grid-item2 img{
-    height: 70%;
-    width: 70%;
+    max-width: 50%;
     border-radius: 10%;
     float: right;
     padding: 0;
     margin: 5% 10%;
-
 } 
 .image-container{
     columns: 4;
