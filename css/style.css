@@ -51,10 +51,11 @@ body {
     display: flex;
     align-items: center;
     padding: 0 8%;
-    background-image: url(../images/software-developer-6521720_1280.jpg);
+    background-image: linear-gradient(to left, transparent 20%,#00356B 95%),
+    url(../images/software-developer-6521720_1280.jpg);
     background-position: right;
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 60%;
     margin-bottom: 10%;
     margin-top: 5%;
 }
