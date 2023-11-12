@@ -94,7 +94,7 @@ body {
     margin-bottom: 10%;
     display: flex;
     margin-right: 5%;
-    margin-left: 5%;
+    margin-left: 8%;
     justify-content: space-between;
     font-weight: 300;
     text-align: center;
@@ -156,7 +156,7 @@ body {
 }
 
 .interview-container h2 {
-    margin-left: 9%;
+    margin-left: 6%;
     margin-bottom: 20px;
     margin-top: 5%;
     font-weight: 400;
@@ -287,17 +287,19 @@ body {
     
 }
 .expoContent h1 {
-    margin-bottom: 60px;
+    margin-bottom: 2%;
     font-size: 32px;
     font-weight: 400;
 }
+
 .expoContent p{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 16px;
 }
 
 .expolink {
-    margin: 100px;
+    margin-top: 5%;
+    text-align: left;
     a:hover {
         color: #00abf0;
     }
